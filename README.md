@@ -92,10 +92,10 @@ It contains the following elements and methods.
 
 #### Examples:
 
-##### Creating the fraction  $$a=(\frac{1000}{2000})$$ and $$b=(\frac{2}{3})$$:
+##### Creating the fraction  a=(1000/2000) and b=2/3:
     frac * a = newFrac(1000,2000);
 
-##### Transform $$(\frac{1000}{2000})$$ to $$(\frac{1}{2})$$:
+##### Transform (1000/2000) to (1/2):
     shorten(a);
 >returned pointer is ignored!
 
@@ -148,9 +148,9 @@ or:
     printf("%s * %s = %s\n", toString(c,result),toString(d,result2),toString(e,result3) );
     printf("Shortening (5/100): %s\n",toString(shorten(d),result));
 > prints: 
-    -(4/8) + -(2/8) = -(6/8)
-    -(6/8) * (5/100) = -(30/800)
-    Shortening (5/100): (1/20)
+>   -(4/8) + -(2/8) = -(6/8)
+>   -(6/8) * (5/100) = -(30/800)
+>   Shortening (5/100): (1/20)
     
 
 
