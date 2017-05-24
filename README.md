@@ -147,10 +147,10 @@ or:
     printf("%s + %s = %s\n", toString(a,result),toString(b,result2),toString(c,result3) );
     printf("%s * %s = %s\n", toString(c,result),toString(d,result2),toString(e,result3) );
     printf("Shortening (5/100): %s\n",toString(shorten(d),result));
-> prints: 
->   -(4/8) + -(2/8) = -(6/8)
->   -(6/8) * (5/100) = -(30/800)
->   Shortening (5/100): (1/20)
+prints: 
+   -(4/8) + -(2/8) = -(6/8)
+   -(6/8) * (5/100) = -(30/800)
+   Shortening (5/100): (1/20)
     
 
 
