@@ -5,6 +5,12 @@
 
 extern frac * newFrac(int divident, int divisor)
 {
+    if(divisor==0)
+    {
+        printf("Division by zero not allowed\nExiting!\n");
+        exit(-1);
+        
+    }
     frac *toCreate = malloc(sizeof(frac));
     if (toCreate != NULL)
     {
